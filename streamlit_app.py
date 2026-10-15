@@ -12,7 +12,7 @@ import streamlit as st
 import streamlit.components.v1 as components
 from PIL import Image, ImageEnhance, ImageOps
 from rembg import new_session, remove
-streamlit-cropper
+from streamlit_cropper import st_cropper
 # =========================================================
 # SEIF PHOTO STUDIO PRO
 # =========================================================
