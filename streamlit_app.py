@@ -202,4 +202,5 @@ div.stDownloadButton > button:hover,
 }
 </style>
 """, unsafe_allow_html=True)
-""", unsafe_allow_html=True)
+st.markdown("""
+<style>
