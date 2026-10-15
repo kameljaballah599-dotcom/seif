@@ -2,5 +2,5 @@ streamlit
 Pillow
 rembg[cpu]
 onnxruntime
-streamlit-cropper
+streamlit-cropper==0.2.1
 requests
