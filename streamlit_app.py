@@ -1,6 +1,5 @@
 from pathlib import Path
-
-code = r'''import io
+import io
 import json
 import sqlite3
 import zipfile
