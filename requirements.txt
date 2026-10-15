@@ -1,6 +1,6 @@
+
 streamlit
 Pillow
+numpy
 rembg[cpu]
 onnxruntime
-streamlit-cropper==0.2.1
-requests
