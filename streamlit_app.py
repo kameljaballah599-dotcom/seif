@@ -14,7 +14,6 @@ from PIL import Image, ImageEnhance, ImageOps
 from rembg import new_session, remove
 from streamlit_cropper import st_cropper
 
-
 # =========================================================
 # SEIF PHOTO STUDIO PRO
 # =========================================================
