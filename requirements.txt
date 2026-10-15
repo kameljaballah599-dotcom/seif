@@ -2,5 +2,5 @@ streamlit
 Pillow
 rembg[cpu]
 onnxruntime
-from streamlit_cropper import st_cropper
+streamlit-cropper==0.2.1
 requests
