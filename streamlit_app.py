@@ -1,4 +1,4 @@
-
+import streamlit as st
 st.markdown("""
 <style>
 /* ألوان ثابتة للتطبيق بالكامل */
