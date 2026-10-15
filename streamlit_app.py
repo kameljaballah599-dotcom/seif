@@ -555,10 +555,3 @@ st.markdown("""
 """,unsafe_allow_html=True)
 st.link_button("📍 افتح موقع الاستوديو على Google Maps","https://www.google.com/maps/search/?api=1&query=VG9M%2BPVX%2C+Rue+Taher+Sfar%2C+Kala%C3%A2+Kebira",use_container_width=True)
 st.link_button("📞 الاتصال بالاستوديو","tel:97262953",use_container_width=True)
-'''
-st.download_button(
-    label="📥 تحميل ملف Python",
-    data=code.encode("utf-8"),
-    file_name="streamlit_app.py",
-    mime="text/x-python",
-)
