@@ -1,4 +1,16 @@
+import zipfile
+from io import BytesIO
 
+import numpy as np
+import streamlit as st
+from PIL import Image, ImageEnhance, ImageFilter, ImageOps
+from rembg import new_session, remove
+
+st.set_page_config(
+    page_title="SEIF PHOTO STUDIO",
+    page_icon="📸",
+    layout="wide",
+)
 st.markdown("""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap');
