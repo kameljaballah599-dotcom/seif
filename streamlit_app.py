@@ -557,5 +557,7 @@ st.link_button("📍 افتح موقع الاستوديو على Google Maps","h
 st.link_button("📞 الاتصال بالاستوديو","tel:97262953",use_container_width=True)
 '''
 path = Path("/mnt/data/streamlit_app.py")
+path.parent.mkdir(parents=True, exist_ok=True)
+path.write_text(code, encoding="utf-8")
 path.write_text(code, encoding="utf-8")
 print(f"Created {path} ({len(code.splitlines())} lines)")
