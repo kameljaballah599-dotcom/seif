@@ -3,4 +3,5 @@ streamlit
 Pillow
 rembg[cpu]
 onnxruntime
-numpy
+streamlit-cropper
+requests
