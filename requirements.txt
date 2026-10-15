@@ -4,3 +4,11 @@ Pillow
 numpy
 rembg[cpu]
 onnxruntime
+
+backgrounds/
+├── gray/          # 10 صور
+├── white/         # 10 صور
+├── wedding/       # 20 صورة
+├── traditional/   # 15 صورة
+├── luxury/        # 15 صورة
+└── nature/        # 10 صور
